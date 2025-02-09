@@ -7,7 +7,7 @@ namespace AP02023_hw00_Welcome
     {
         public static int Add(int a, int b)
         {
-            return 1;
+            return a+b;
         }
 
         public static string GetMessage()
