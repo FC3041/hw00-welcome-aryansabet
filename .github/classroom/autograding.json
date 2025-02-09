@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Console Test",
+      "setup": "",
+      "run": "dotnet run --project src",
+      "input": "",
+      "output": "Hello World!",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "Hello World",
+      "setup": "",
+      "run": "dotnet test --filter TestGroup=HelloWorld",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Adder",
+      "setup": "",
+      "run": "dotnet test --filter TestGroup=Adder",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
